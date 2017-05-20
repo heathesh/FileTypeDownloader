@@ -50,11 +50,14 @@ func linkScrape(websiteUrl string, fileType string, downloadLocation string) {
 
 			fileName := path.Join(downloadLocation, linkHref[strings.LastIndex(linkHref, "/")+1:])
 
-			fmt.Println("Downloading", linkHref)
+			//don't download the file if it already exists
+			if _, err := os.Stat(fileName); os.IsNotExist(err) {
+				fmt.Println("Downloading", linkHref)
 
-			downloadFile(fileName, linkHref)
+				downloadFile(fileName, linkHref)
 
-			fmt.Println("Downloaded", fileName)
+				fmt.Println("Downloaded", fileName)
+			}
 		}
 	})
 }
