@@ -1,7 +1,7 @@
-# FileTypeDownloader
+# File Type Downloader
 Downloads all of a particular file type from a specified website address (URL).
 
-# Languague
+# Language
 
 Written in Go ver 1.8
 
