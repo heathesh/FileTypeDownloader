@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Settings>
+    <WebsiteUrl>http://somewhere.com</WebsiteUrl>
+    <FileTypeToDownload>.mp3</FileTypeToDownload>
+    <DownloadLocation>/Users/heathesh/Downloads/FileTypeDownloader</DownloadLocation>
+</Settings>
