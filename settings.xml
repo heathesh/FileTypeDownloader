@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Settings>
-    <WebsiteUrl>http://somewhere.com</WebsiteUrl>
+    <WebsiteUrl>http://somewebsite.com/index.php/funny-query-string?strangevalue=0</WebsiteUrl>
+    <BaseWebsiteUrl>http://somewebsite.com</BaseWebsiteUrl>
     <FileTypeToDownload>.mp3</FileTypeToDownload>
-    <DownloadLocation>/Users/heathesh/Downloads/FileTypeDownloader</DownloadLocation>
+    <DownloadLocation>/Users/heatheshbhandari/Downloads/FileTypeDownloader</DownloadLocation>
 </Settings>
